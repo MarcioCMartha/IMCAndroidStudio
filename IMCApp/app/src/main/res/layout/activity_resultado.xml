@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/txtPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso:"
+        android:textSize="18sp"
+        android:textColor="#333"/>
+
+    <TextView
+        android:id="@+id/txtAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura:"
+        android:textSize="18sp"
+        android:textColor="#333"/>
+
+    <TextView
+        android:id="@+id/txtIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMC:"
+        android:textSize="18sp"
+        android:textColor="#00897B"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtClassificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classificação:"
+        android:textSize="18sp"
+        android:textColor="#FF5722"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
